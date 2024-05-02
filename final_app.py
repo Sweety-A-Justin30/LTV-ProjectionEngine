@@ -23,7 +23,7 @@ from lifetimes import ParetoNBDFitter
 from lifetimes.plotting import plot_history_alive
 from sklearn.metrics import mean_squared_error, r2_score
 import base64
-st.markdown(""" # Customer Lifetime Value Prediction App 
+st.markdown(""" # LTV-ProjectionEngine App 
 
 
 Upload the RFM data and get your customer lifetime prediction on the fly !!! :smile:
