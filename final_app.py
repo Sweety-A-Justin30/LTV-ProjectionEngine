@@ -31,7 +31,7 @@ Upload the RFM data and get your customer lifetime prediction on the fly !!! :sm
 	""")
 
 
-st.image("https://www.shutterstock.com/image-vector/ltv-lifetime-value-loan-concept-keywords-1816500692", use_column_width = True)
+st.image("https://sarasanalytics.com/wp-content/uploads/2019/11/Customer-Lifetime-value-new-1.jpg", use_column_width = True)
 
 
 data = st.file_uploader("File Uploader")
