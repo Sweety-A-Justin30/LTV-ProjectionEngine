@@ -23,7 +23,7 @@ from lifetimes import ParetoNBDFitter
 from lifetimes.plotting import plot_history_alive
 from sklearn.metrics import mean_squared_error, r2_score
 import base64
-st.markdown(""" # Customer Lifetime Value Prediction App 
+st.markdown(""" # LTV-ProjectionEngine App 
 
 
 Upload the RFM data and get your customer lifetime prediction on the fly !!! :smile:
@@ -37,17 +37,11 @@ st.image("https://sarasanalytics.com/wp-content/uploads/2019/11/Customer-Lifetim
 data = st.file_uploader("File Uploader")
 
 st.sidebar.image("https://cdn-icons-png.flaticon.com/512/4882/4882559.png", width = 120)
-st.sidebar.markdown(""" **Made by Sweety** """)
+st.sidebar.markdown(""" **Crafted by Sweety A Justin** """)
 
 
 st.sidebar.title("Input Features :pencil:")
 
-
-st.sidebar.markdown("""
-
-[Example CSV Input File](https://raw.githubusercontent.com/mukulsinghal001/customer-lifetime-prediction-using-python/main/model_deployment/sample_file.csv)
-
-	""")
 
 days = st.sidebar.slider("Select The No. Of Days", min_value = 1, max_value = 365, step = 1, value = 30)
 
