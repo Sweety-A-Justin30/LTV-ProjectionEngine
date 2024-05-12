@@ -26,7 +26,7 @@ import base64
 st.markdown(""" # LTV-ProjectionEngine App 
 
 
-Upload the RFM data and get your customer lifetime prediction on the fly !!! :smile:
+Experience instant customer lifetime predictions by uploading your data!!! :smile:
 
 	""")
 
@@ -70,8 +70,6 @@ st.sidebar.write(features)
 st.sidebar.markdown("""
 
 Before uploading the file, please select the input features first.
-
-Also, please make sure the columns are in proper format. For reference you can download the [dummy data](https://raw.githubusercontent.com/mukulsinghal001/customer-lifetime-prediction-using-python/main/model_deployment/sample_file.csv).
 
 **Note:** Only Use "CSV" File.
 
